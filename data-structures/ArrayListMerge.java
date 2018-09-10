@@ -2,6 +2,7 @@ import java.util.*;
 
 public class ArrayListMerge {
 
+    // Doubling takes O(n) time for ArrayLists, but O(1) amortized time for insertions.
     private static ArrayList<String> merge(String[] words, String[] more) {
         ArrayList<String> sentence = new ArrayList<>();
         for (String word : words) {
