@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class IsUnique {
+public class Q1_1_IsUnique {
 
     /**
      * Returns whether a string has all unique characters, 
